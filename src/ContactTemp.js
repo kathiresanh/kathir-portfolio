@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 export default function ContactTemp(){
     return(
         <div className="container text-white">
-          <div className="d-flex justify-content-center mt-5"><h1 class="display-2">Let's maket something great!</h1></div>
+          <div className="d-flex justify-content-center mt-5"><h1 class="display-2">Let's make something great!</h1></div>
           <div className="d-flex justify-content-center mt-3">
               <div className="col-sm-8">
            
