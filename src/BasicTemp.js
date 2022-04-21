@@ -25,7 +25,7 @@ export default function BasicTemp() {
 
       <div className="container-fluid">
             <div className="row">
-            <div className="col-sm-5 p-1" >
+            <div className="col-sm-5 p-0" >
                <div className="d-flex text-white">
                <div className="column ">
                    <Link to="/about" style={{textDecoration:"none" ,color:"white"}} className='d-flex'> <motion.h1
