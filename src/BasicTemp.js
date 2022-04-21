@@ -25,8 +25,9 @@ export default function BasicTemp() {
 
       <div className="container-fluid">
             <div className="row">
-            <div className="col-sm-5 text-white p-3 d-flex justify-content-center" >
-                <div className="column ">
+            <div className="col-sm-5 p-1" >
+               <div className="d-flex text-white">
+               <div className="column ">
                    <Link to="/about" style={{textDecoration:"none" ,color:"white"}} className='d-flex'> <motion.h1
                         whileHover={{ x: 50 }}
                         onHoverStart={() => { setuser("About") }}
@@ -54,6 +55,7 @@ export default function BasicTemp() {
 
                       </p>
                 </div>
+               </div>
             </div>
             <div className="col-sm-7" id="basictemp">
                 <div class="d-flex justify-content-start">
